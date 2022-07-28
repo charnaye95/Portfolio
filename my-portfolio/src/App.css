@@ -1,0 +1,57 @@
+/* import font at some point */
+/* Default CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+body {
+  font-weight: 300;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Jost', sans-serif;
+
+  overflow-x: hidden;
+  position: relative;
+  background-color: #55A79C !important;
+  color: #fff9fb !important;
+}
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+#basic-navbar-nav {
+  display: flex;
+}
+.navbar-link {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 20px;
+  color: #fff9fb;
+  text-decoration: none;
+}
+.social-icon {
+  padding: 10px;
+}
+.social-logo {
+  height: 50px;
+  width: 50px;
+}
+.header {
+  padding: 10px;
+}
+.name {
+  color: #fff9fb;
+  padding: 20px;
+  text-decoration: none;
+}
+a:hover {
+  text-shadow: 0px 2px 10px;
+  /* box-shadow: 0 5px 15px; */
+}
+.active {
+  color:#0b0500;
+}
