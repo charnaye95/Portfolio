@@ -34,14 +34,14 @@ function NavBar() {
         // className={scrolled ? "scrolled" : ""}
         >
             <Container className='navigation'>
-                <Navbar.Brand href="#home" className='name'><h1>CHARNAYE</h1></Navbar.Brand>
+                <Navbar.Brand href="#home" className='name'><h1>CHARNAYE GRIER</h1></Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}><h1>Home</h1></Nav.Link>
 
                         <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}><h1>About</h1></Nav.Link>
 
-                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}><h1>Skills/Experience</h1></Nav.Link>
+                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}><h1>Skills</h1></Nav.Link>
 
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}><h1>Projects</h1></Nav.Link>
 
