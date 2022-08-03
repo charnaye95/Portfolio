@@ -49,8 +49,8 @@ function NavBar() {
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href='https://github.com/charnaye95/' className='github-link'><img src={github} alt='' className='social-logo'></img></a>
-                            <a href='https://www.linkedin.com/in/charnayegrier/' className='github-link'><img src={linkedin} alt='' className='social-logo'></img></a>
+                            <a href='https://github.com/charnaye95/' target='_blank' rel='noreferrer' className='github-link'><img src={github} alt='' className='social-logo'></img></a>
+                            <a href='https://www.linkedin.com/in/charnayegrier/' target='_blank' rel='noreferrer' className='github-link'><img src={linkedin} alt='' className='social-logo'></img></a>
                         </div>
                     </span>
                 </Navbar.Collapse>
