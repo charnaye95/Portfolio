@@ -34,7 +34,11 @@ function NavBar() {
         // className={scrolled ? "scrolled" : ""}
         >
             <Container className='navigation'>
-                <Navbar.Brand href="#home" className='name'><h1>CHARNAYE GRIER</h1></Navbar.Brand>
+                <Navbar.Brand href="#home" className='name'>
+                    <h1> {'{ CG }'}
+                        {/* CHARNAYE GRIER */}
+                        </h1>
+                    </Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}><h1>Home</h1></Nav.Link>
@@ -52,6 +56,7 @@ function NavBar() {
                             <a href='https://github.com/charnaye95/' target='_blank' rel='noreferrer' className='github-link'><img src={github} alt='' className='social-logo'></img></a>
                             <a href='https://www.linkedin.com/in/charnayegrier/' target='_blank' rel='noreferrer' className='github-link'><img src={linkedin} alt='' className='social-logo'></img></a>
                         </div>
+                        <a href='file://C:/Users/charnaye95/Documents/GeneralAssembly/Outcomes/Portfolio/my-portfolio/src/assets/Charnaye Grier Resume.docx' className='resume'>Resume</a>
                     </span>
                 </Navbar.Collapse>
             </Container>

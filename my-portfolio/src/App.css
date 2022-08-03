@@ -55,4 +55,39 @@ a:hover {
 .active {
   color:#0b0500;
 }
+.navbar-text {
+  display: flex;
+}
+.resume {
+  border: #fff9fb solid;
+  border-width: thin;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+.banner {
+  padding: 50px 150px;
+  display: flex;
+  gap: 35px;
+}
+.name-heading {
+  font-size: 75px;
+}
+.brand-statement {
+  color: #0b0500;
+  opacity: 85%;
+  padding-left: 10px;
+}
+.profile {
+  width: 300px;
+}
+h2 {
+  font-size: 30px;
+}
+.hello, .title {
+  padding-left: 10px;
+}
 /* Look more into CSS stuff later lets get bones done */
+/* Responsive CSS */
+/* @media screen and (min-width: 900px) {
+  
+} */
