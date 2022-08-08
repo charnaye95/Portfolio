@@ -78,10 +78,14 @@ a:hover {
   padding-left: 10px;
 }
 .profile {
-  width: 300px;
+  width: 25vw;
+border-radius: 30px;
 }
 h2 {
   font-size: 30px;
+}
+.hello, .about-text {
+  color: #0b0500;
 }
 .hello, .title {
   padding-left: 10px;
