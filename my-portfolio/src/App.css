@@ -22,6 +22,9 @@ body {
 .navigation {
   display: flex;
   justify-content: space-evenly;
+  background-color: #3e7a72;
+  margin: 0;
+
 }
 #basic-navbar-nav {
   display: flex;
@@ -40,9 +43,9 @@ body {
   height: 50px;
   width: 50px;
 }
-.header {
+/* .header {
   padding: 10px;
-}
+} */
 .name {
   color: #fff9fb;
   padding: 20px;
@@ -93,6 +96,14 @@ h2 {
 .hello,
 .title {
   padding-left: 10px;
+}
+
+.skill-item img {
+  background-color:#fffaeb;
+  border-radius: 50%;
+}
+.skill-text {
+  text-align: center;
 }
 /* Look more into CSS stuff later lets get bones done */
 /* Responsive CSS */
