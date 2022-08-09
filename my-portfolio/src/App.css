@@ -115,9 +115,8 @@ flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .project-item {
-  width: 15vw;
-  height: 40vh;
-  margin: 20px 10px;
+  width: 23vw;
+  height: 22vh;
   border: 2px solid #fff9fb;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
@@ -135,7 +134,7 @@ flex-wrap: wrap;
   margin: 2px;
 }
 .browser p {
-  padding-left: 3vw;
+  padding-left: 2vw;
   font-family: monospace;
   color:#0b0500;
 
@@ -151,6 +150,16 @@ flex-wrap: wrap;
 }
 .project-item img {
   width: 100%;
+}
+.project1, .project2, .project3, .project4 {
+  width: 35%;
+  margin: 30px;
+}
+.project-github {
+  color:#FFD447;
+  font-weight:800;
+  font-size: large;
+  text-decoration: none;
 }
 /* Look more into CSS stuff later lets get bones done */
 /* Responsive CSS */
