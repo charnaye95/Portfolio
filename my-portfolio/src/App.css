@@ -12,11 +12,11 @@ html {
 body {
   font-weight: 300;
   /* font-family: 'Josefin Sans', sans-serif; */
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 
   overflow-x: hidden;
   position: relative;
-  background-color: #55A79C !important;
+  background-color: #55a79c !important;
   color: #fff9fb !important;
 }
 .navigation {
@@ -53,16 +53,18 @@ a:hover {
   /* box-shadow: 0 5px 15px; */
 }
 .active {
-  color:#0b0500;
+  color: #0b0500;
 }
 .navbar-text {
   display: flex;
 }
 .resume {
-  border: #fff9fb solid;
+  padding-top: 25px;
+  /* border: #fff9fb solid;
   border-width: thin;
-  padding: 10px 15px;
+  padding: 10px 15px; */
   font-weight: bold;
+  font-size: large;
 }
 .banner {
   padding: 50px 150px;
@@ -79,15 +81,17 @@ a:hover {
 }
 .profile {
   width: 25vw;
-border-radius: 30px;
+  border-radius: 50%;
 }
 h2 {
   font-size: 30px;
 }
-.hello, .about-text {
+.hello,
+.about-text {
   color: #0b0500;
 }
-.hello, .title {
+.hello,
+.title {
   padding-left: 10px;
 }
 /* Look more into CSS stuff later lets get bones done */

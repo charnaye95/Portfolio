@@ -4,7 +4,8 @@ import github from '../assets/images/icons8-github-96.svg'
 import linkedin from '../assets/images/icons8-linkedin-circled.svg'
 
 // may or may not use
-import { useState, 
+import {
+    useState,
     // useEffect 
 } from 'react'
 
@@ -30,15 +31,15 @@ function NavBar() {
     }
 
     return (
-        <Navbar expand="lg" className='header' 
+        <Navbar expand="lg" className='header'
         // className={scrolled ? "scrolled" : ""}
         >
             <Container className='navigation'>
                 <Navbar.Brand href="#home" className='name'>
                     <h1> {'{ CG }'}
                         {/* CHARNAYE GRIER */}
-                        </h1>
-                    </Navbar.Brand>
+                    </h1>
+                </Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}><h1>Home</h1></Nav.Link>
@@ -56,7 +57,7 @@ function NavBar() {
                             <a href='https://github.com/charnaye95/' target='_blank' rel='noreferrer' className='github-link'><img src={github} alt='' className='social-logo'></img></a>
                             <a href='https://www.linkedin.com/in/charnayegrier/' target='_blank' rel='noreferrer' className='github-link'><img src={linkedin} alt='' className='social-logo'></img></a>
                         </div>
-                        <a href='file://C:/Users/charnaye95/Documents/GeneralAssembly/Outcomes/Portfolio/my-portfolio/src/assets/Charnaye Grier Resume.docx' className='resume'>Resume</a>
+                        <a href='https://docs.google.com/document/d/1p09eVCmTVXcboatNZFYcFep7SlrIy5v56y6ulwPvDXg/edit?usp=sharing' target='_blank' rel='noreferrer' className='resume navbar-link'>Resume</a>
                     </span>
                 </Navbar.Collapse>
             </Container>
