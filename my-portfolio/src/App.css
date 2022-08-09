@@ -89,7 +89,8 @@ h2 {
   font-size: 30px;
 }
 .hello,
-.about-text, .project-description {
+.about-text,
+.project-description {
   color: #0b0500;
 }
 .hello,
@@ -98,17 +99,17 @@ h2 {
 }
 .skills {
   display: flex;
-gap: 7vw;
-flex-wrap: wrap;
+  gap: 7vw;
+  flex-wrap: wrap;
 }
 .skill-item img {
-  background-color:#fff9fb;
+  background-color: #fff9fb;
   border-radius: 50%;
 }
 .skill-text {
   text-align: center;
   font-weight: bold;
-  color:#0b0500;
+  color: #0b0500;
 }
 .project-list {
   display: flex;
@@ -136,30 +137,50 @@ flex-wrap: wrap;
 .browser p {
   padding-left: 2vw;
   font-family: monospace;
-  color:#0b0500;
-
+  color: #0b0500;
 }
 .circle1 {
   background-color: red;
 }
 .circle2 {
-  background-color: #FFD447;
+  background-color: #ffd447;
 }
 .circle3 {
   background-color: rgb(25, 175, 25);
 }
 .project-item img {
   width: 100%;
+  transition: all 10s ease;
 }
-.project1, .project2, .project3, .project4 {
+.project3 img {
+  transition: 30s ease;
+}
+.project-item img:hover {
+  transform: translateY(-100%);
+}
+.project1,
+.project2,
+.project3,
+.project4 {
   width: 35%;
   margin: 30px;
 }
 .project-github {
-  color:#FFD447;
-  font-weight:800;
+  color: #ffd447;
+  font-weight: 800;
   font-size: large;
   text-decoration: none;
+}
+.contact {
+  text-align: center;
+  padding: 5vh;
+}
+.footer {
+  background-color: #3e7a72;
+  padding: 20px;
+  /* position:fixed; */
+  bottom:0;
+  width: 100%;
 }
 /* Look more into CSS stuff later lets get bones done */
 /* Responsive CSS */
