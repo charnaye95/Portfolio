@@ -105,10 +105,43 @@ flex-wrap: wrap;
   background-color:#fff9fb;
   border-radius: 50%;
 }
-.skill-text {
+.skill-text, .project-title {
   text-align: center;
   font-weight: bold;
   color:#0b0500;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-item {
+  width: 15vw;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid #fff9fb;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+.browser {
+  height: 20px;
+  background-color: #efeaea;
+  display: flex;
+  align-items: center;
+}
+.browser div {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 2px;
+}
+.circle1 {
+  background-color: red;
+}
+.circle2 {
+  background-color: #FFD447;
+}
+.circle3 {
+  background-color: rgb(25, 175, 25);
 }
 /* Look more into CSS stuff later lets get bones done */
 /* Responsive CSS */
