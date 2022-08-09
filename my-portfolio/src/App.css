@@ -24,7 +24,6 @@ body {
   justify-content: space-evenly;
   background-color: #3e7a72;
   margin: 0;
-
 }
 #basic-navbar-nav {
   display: flex;
@@ -97,13 +96,19 @@ h2 {
 .title {
   padding-left: 10px;
 }
-
+.skills {
+  display: flex;
+gap: 7vw;
+flex-wrap: wrap;
+}
 .skill-item img {
-  background-color:#fffaeb;
+  background-color:#fff9fb;
   border-radius: 50%;
 }
 .skill-text {
   text-align: center;
+  font-weight: bold;
+  color:#0b0500;
 }
 /* Look more into CSS stuff later lets get bones done */
 /* Responsive CSS */
