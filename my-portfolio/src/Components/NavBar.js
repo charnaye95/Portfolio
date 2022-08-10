@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import github from '../assets/images/icons8-github-96.svg'
 import linkedin from '../assets/images/icons8-linkedin-circled.svg'
+import resume from '../assets/resume.pdf'
 
 // may or may not use
 import {
@@ -57,7 +58,9 @@ function NavBar() {
                             <a href='https://github.com/charnaye95/' target='_blank' rel='noreferrer' className='github-link'><img src={github} alt='' className='social-logo'></img></a>
                             <a href='https://www.linkedin.com/in/charnayegrier/' target='_blank' rel='noreferrer' className='github-link'><img src={linkedin} alt='' className='social-logo'></img></a>
                         </div>
-                        <a href='https://docs.google.com/document/d/1p09eVCmTVXcboatNZFYcFep7SlrIy5v56y6ulwPvDXg/edit?usp=sharing' target='_blank' rel='noreferrer' className='resume navbar-link'>Resume</a>
+                        <a href={resume}
+                        // 'https://docs.google.com/document/d/1p09eVCmTVXcboatNZFYcFep7SlrIy5v56y6ulwPvDXg/edit?usp=sharing' 
+                        target='_blank' rel='noreferrer' className='resume navbar-link'>Resume</a>
                     </span>
                 </Navbar.Collapse>
             </Container>

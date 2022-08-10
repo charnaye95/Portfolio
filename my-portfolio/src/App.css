@@ -171,15 +171,32 @@ h2 {
   font-size: large;
   text-decoration: none;
 }
+.project-description {
+  font-weight: 575;
+}
 .contact {
   text-align: center;
-  padding: 5vh;
+  padding-bottom: 10vh;
+}
+.email, .phone {
+  border: solid #ffd447;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffd447;
+  padding: 10px;
+  border-width: 1px;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 .footer {
   background-color: #3e7a72;
-  padding: 20px;
-  /* position:fixed; */
-  bottom:0;
+  padding: 3vh;
+  /* font-weight: bold; */
+  text-align: center;
+  position: absolute;
   width: 100%;
 }
 /* Look more into CSS stuff later lets get bones done */

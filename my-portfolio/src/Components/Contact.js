@@ -4,8 +4,16 @@ function Contact() {
   return (
     <div className='contact'>
       <h2 className='contact-title'>Contact</h2>
-      <h3 className='about-text'>Say something here</h3>
-    <a className='email' href='mailto:charnayegrier@gmail.com'>Contact me!</a>
+      <br></br>
+
+      <h3 className='about-text'>
+        My inbox is always open. Let's get in touch!
+      </h3>
+      <br></br>
+      <div className='contact-links'>
+        <h3><a className='email' href='mailto:charnayegrier@gmail.com'>Email me</a></h3>
+        <h3><a className='phone' href='tel:6785760005'>Call me</a></h3>
+      </div>
     </div>
   )
 }
