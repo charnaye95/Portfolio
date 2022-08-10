@@ -42,12 +42,15 @@ function Intro() {
                 <br></br>
                 <h3 className='brand-statement'>I am a creative, design-minded, and user-driven software developer aiming to create meaningful applications that truly reach people and can add to someone’s life. Messaging and access to software for everyone is important to me and if even one application that I create is helpful to someone, I’ve made a difference.</h3>
             </div>
-            <div className='image-container'>
+            <motion.div className='image-container'
+             initial={{ scale: .9 }}
+             whileHover={{ scale: 1.1 }}
+             >
                 <div className='img-card'>
                     <img src={profile} alt='profile of author' className='profile'></img>
                 </div>
 
-            </div>
+            </motion.div>
         </motion.div>
     )
 }

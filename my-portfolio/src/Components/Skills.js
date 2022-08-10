@@ -33,121 +33,106 @@ function Skills() {
         // transition={{ duration: 1 }}
         >
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={reactskill} alt='' className='react-skill'></img>
             <p className='skill-text'>React</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={jsskill} alt='' className='js-skill'></img>
             <p className='skill-text'>JavaScript</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={nodeskill} alt='' className='node-skill'></img>
             <p className='skill-text'>Node.js</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={htmlskill} alt='' className='html-skill'></img>
             <p className='skill-text'>CSS</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={cssskill} alt='' className='css-skill'></img>
             <p className='skill-text'>CSS</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={bootstrapskill} alt='' className='bootstrap-skill'></img>
             <p className='skill-text'>Bootstrap</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={tailwindskill} alt='' className='tailwind-skill'></img>
             <p className='skill-text'>Tailwind CSS</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={gitskill} alt='' className='git-skill'></img>
             <p className='skill-text'>Git</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={githubskill} alt='' className='github-skill'></img>
             <p className='skill-text'>Github</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={pythonskill} alt='' className='python-skill'></img>
             <p className='skill-text'>Python</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={djangoskill} alt='' className='django-skill'></img>
             <p className='skill-text'>Django</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={postgresskill} alt='' className='postgres-skill'></img>
             <p className='skill-text'>PostgreSQL</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={mongoskill} alt='' className='mongo-skill'></img>
             <p className='skill-text'>MongoDB</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={herokuskill} alt='' className='heroku-skill'></img>
             <p className='skill-text'>Heroku</p></motion.div>
           <motion.div
-            // animate={{ scale: 1 }}
             initial={{ scale: 1 }}
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.3 }}
             className='skill-item'
           >
             <img src={netlifyskill} alt='' className='netlify-skill'></img>

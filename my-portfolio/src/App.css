@@ -17,9 +17,10 @@ body {
 }
 .navigation {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   background-color: #3e7a72;
   margin: 0;
+  align-items: center;
 }
 #basic-navbar-nav {
   display: flex;
@@ -43,8 +44,10 @@ body {
 } */
 .name {
   color: #fff9fb;
-  padding: 20px;
   text-decoration: none;
+  font-size: 4vh;
+  font-weight:700;
+/* padding-top: 5px; */
 }
 a:hover {
   text-shadow: 0px 2px 10px;
@@ -85,8 +88,7 @@ h2 {
   font-size: 30px;
 }
 .hello,
-.about-text,
-.project-description {
+.about-text {
   color: #0b0500;
 }
 .hello,
@@ -169,6 +171,7 @@ h2 {
 }
 .project-description {
   font-weight: 575;
+  color: black;
 }
 .contact {
   text-align: center;
