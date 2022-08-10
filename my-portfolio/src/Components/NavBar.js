@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 import github from '../assets/images/icons8-github-96.svg'
 import linkedin from '../assets/images/icons8-linkedin-circled.svg'
 import resume from '../assets/resume.pdf'
-import gif1 from '../assets/images/Developer Logo (1).gif'
+import logo from '../assets/images/Developer Logo.png'
 
 function NavBar() {
     const [activeLink, setActiveLink] = useState('home')
@@ -18,7 +18,7 @@ function NavBar() {
         <Navbar expand="lg" className='header'>
             <Container className='navigation'>
                 <Navbar.Brand href="#home" className='name'>
-                    <img src={gif1} alt='' className='logo'></img>
+                    <img src={logo} alt='' className='logo'></img>
                     {/* <h1> {'{ CG }'}
                         CHARNAYE GRIER
                     </h1> */}
