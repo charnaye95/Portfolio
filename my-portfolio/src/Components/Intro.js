@@ -1,12 +1,15 @@
 import React from 'react'
 import profile from '../assets/images/profile.jpeg'
 import TypeWriterEffect from 'react-typewriter-effect';
+import { motion } from "framer-motion"
 
 
 function Intro() {
 
     return (
-        <div className='banner'>
+        <motion.div className='banner' id='home'
+        whileInView={{ opacity: [0, 1] }}
+        transition={{ duration: 1 }}>
             <div>
                 <h3 className='hello'>Hello, my name is</h3>
                 <h1 className='name-heading'>
@@ -45,7 +48,7 @@ function Intro() {
                 </div>
 
             </div>
-        </div>
+        </motion.div>
     )
 }
 

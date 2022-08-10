@@ -1,8 +1,12 @@
 import React from 'react'
+import { motion } from "framer-motion"
+
 
 function About() {
   return (
-    <div className='banner'>
+    <motion.div className='banner' id='about'
+    whileInView={{ opacity: [0, 1] }}
+    transition={{ duration: 1 }}>
       <div>
         <h2 className='title'>
           About Me
@@ -20,7 +24,7 @@ function About() {
         </h3>
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 

@@ -3,10 +3,15 @@ import therapyready from '../assets/images/therapyready.netlify.app_.png'
 import align from '../assets/images/peaceful-sunshine-1cdc44.netlify.app_home.png'
 import draftday from '../assets/images/polar-reef-72504.herokuapp.com_.png'
 import moviemadness from '../assets/images/charnaye95.github.io_MovieMadness_.png'
+import { motion } from "framer-motion"
+
 
 function Projects() {
   return (
-    <div className='banner'>
+    <motion.div className='banner' id='projects'
+    whileInView={{ opacity: [0, 1] }}
+    transition={{ duration: 1 }}
+    >
       <div>
         <h2 className='title'>
           Projects
@@ -91,7 +96,7 @@ function Projects() {
         </div>
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 

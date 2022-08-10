@@ -19,16 +19,18 @@ import netlifyskill from '../assets/images/icons8-netlify-a-cloud-computing-comp
 
 function Skills() {
   return (
-    <div className='banner'>
+    <motion.div className='banner' id='skills'
+      whileInView={{ opacity: [0, 1] }}
+      transition={{ duration: 1 }}>
       <div>
         <h2 className='title'>
           Skills
         </h2>
       </div>
       <div className='skills-container'>
-        <motion.div className='skills'
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 1 }}
+        <div className='skills'
+        // whileInView={{ opacity: [0, 1] }}
+        // transition={{ duration: 1 }}
         >
           <motion.div
             // animate={{ scale: 1 }}
@@ -150,11 +152,11 @@ function Skills() {
           >
             <img src={netlifyskill} alt='' className='netlify-skill'></img>
             <p className='skill-text'>Netlify</p></motion.div>
-        </motion.div>
+        </div>
 
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 
