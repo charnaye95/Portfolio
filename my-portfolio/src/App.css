@@ -15,6 +15,10 @@ body {
   background-color: #55a79c !important;
   color: #fff9fb !important;
 }
+.logo {
+  width: 150px;
+  height: auto;
+}
 .navigation {
   display: flex;
   justify-content:space-evenly;
