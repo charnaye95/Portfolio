@@ -10,7 +10,7 @@ function Intro() {
         <motion.div className='banner' id='home'
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 1 }}>
-            <div>
+            <div className='intro-text'>
                 <h3 className='hello'>Hello, my name is</h3>
                 <h1 className='name-heading'>
                     Charnaye Grier
