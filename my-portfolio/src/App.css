@@ -160,10 +160,10 @@ h2 {
 .project-item img:hover {
   transform: translateY(-100%);
 }
-.project1,
-.project2,
-.project3,
-.project4 {
+#project1,
+#project2,
+#project3,
+#project4 {
   width: 35%;
   margin: 30px;
 }
@@ -254,6 +254,33 @@ z-index: 1;
 }
 .banner {
   padding-left: 75px;
+}
+#projects {
+flex-direction: column;
+}
+#project-heading, .project-github, .contact {
+padding-left: 90px;
+}
+.project-list {
+  flex-direction: column;
+}
+.project-block .project-github, .project-description {
+text-align: center;
+}
+#project1,
+#project2,
+#project3,
+#project4 {
+  width: 240px;
+}
+.project-item{
+  width: 250px;
+  height: 150px;
+}
+.footer {
+  box-sizing: unset;
+/* position: fixed;
+bottom: 0; */
 }
 }
 

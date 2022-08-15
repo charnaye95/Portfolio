@@ -13,12 +13,12 @@ function Projects() {
     transition={{ duration: 1 }}
     >
       <div>
-        <h2 className='title'>
+        <h2 className='title' id='project-heading'>
           Projects
         </h2>
       </div>
       <div className='project-list'>
-        <div className='project1'>
+        <div className='project-block' id='project1'>
           <div className='project-item'>
             <div className='browser'>
               <div className='circle1'></div>
@@ -38,7 +38,7 @@ function Projects() {
 
         <br></br>
 
-        <div className='project2'>
+        <div className='project-block' id='project2'>
           <div className='project-item'>
             <div className='browser'>
               <div className='circle1'></div>
@@ -58,7 +58,7 @@ function Projects() {
 
         <br></br>
 
-        <div className='project3'>
+        <div className='project-block' id='project3'>
           <div className='project-item'>
             <div className='browser'>
               <div className='circle1'></div>
@@ -77,7 +77,7 @@ function Projects() {
         </div>
 
         <br></br>
-        <div className='project4'>
+        <div className='project-block' id='project4'>
           <div className='project-item'>
             <div className='browser'>
               <div className='circle1'></div>
