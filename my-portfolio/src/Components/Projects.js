@@ -9,8 +9,8 @@ import { motion } from "framer-motion"
 function Projects() {
   return (
     <motion.div className='banner' id='projects'
-    whileInView={{ opacity: [0, 1] }}
-    transition={{ duration: 1 }}
+      whileInView={{ opacity: [0, 1] }}
+      transition={{ duration: 1 }}
     >
       <div>
         <h2 className='title' id='project-heading'>

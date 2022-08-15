@@ -5,9 +5,9 @@ import { motion } from "framer-motion"
 function Contact() {
   return (
     <motion.div className='contact' id='contact'
-    whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 1 }}
-          >
+      whileInView={{ opacity: [0, 1] }}
+      transition={{ duration: 1 }}
+    >
       <h2 className='contact-title'>Contact</h2>
       <br></br>
 

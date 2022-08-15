@@ -5,8 +5,8 @@ import { motion } from "framer-motion"
 function About() {
   return (
     <motion.div className='banner' id='about'
-    whileInView={{ opacity: [0, 1] }}
-    transition={{ duration: 1 }}>
+      whileInView={{ opacity: [0, 1] }}
+      transition={{ duration: 1 }}>
       <div>
         <h2 className='title'>
           About Me
