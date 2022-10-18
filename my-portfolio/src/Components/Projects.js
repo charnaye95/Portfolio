@@ -29,7 +29,11 @@ function Projects() {
             <a href='https://therapyready.netlify.app/' target='_blank' rel='noreferrer' className='project-link'><img src={therapyready} alt='therapyready homepage'></img></a>
           </div>
           {/* <p className='project-title'>TherapyReady</p> */}
-          <a href='https://github.com/charnaye95/TherapyReady-Frontend' target='_blank' rel='noreferrer' className='project-github'>Github</a>
+          <div className='link-block'>
+
+            <a href='https://therapyready.netlify.app/' target='_blank' rel='noreferrer' className='project-github'>Demo</a>
+            <a href='https://github.com/charnaye95/TherapyReady-Frontend' target='_blank' rel='noreferrer' className='project-github'>Github</a>
+          </div>
           <p className='project-description'><b>Django, React, Node.js, CSS, Tailwind CSS </b>
             <br></br>
             an application that features clinic and therapist information transparently and health questionnaires as a resource for users to access. Search functionality is included where users can find clinics or therapists by city
@@ -49,7 +53,10 @@ function Projects() {
             <a href='https://peaceful-sunshine-1cdc44.netlify.app/' target='_blank' rel='noreferrer' className='project-link'><img src={align} alt='align homepage'></img></a>
           </div>
           {/* <p className='project-title'>TherapyReady</p> */}
-          <a href='https://github.com/aschweik766/breakfast-club-FrontEnd' target='_blank' rel='noreferrer' className='project-github'>Github</a>
+          <div className='link-block'>
+            <a href='https://peaceful-sunshine-1cdc44.netlify.app/' target='_blank' rel='noreferrer' className='project-github'>Demo</a>
+            <a href='https://github.com/aschweik766/breakfast-club-FrontEnd' target='_blank' rel='noreferrer' className='project-github'>Github</a>
+          </div>
           <p className='project-description'><b>Mongo, Express, React, Node.js, CSS</b>
             <br></br>
             an application that displays daily/monthly horoscope information, personal to the user, and includes a dating feature that utilizes swipe functionality
@@ -69,7 +76,10 @@ function Projects() {
             <a href='https://polar-reef-72504.herokuapp.com/' target='_blank' rel='noreferrer' className='project-link'><img src={draftday} alt='draftday homepage'></img></a>
           </div>
           {/* <p className='project-title'>TherapyReady</p> */}
-          <a href='https://github.com/charnaye95/DraftDay' target='_blank' rel='noreferrer' className='project-github'>Github</a>
+          <div className='link-block'>
+            <a href='https://polar-reef-72504.herokuapp.com/' target='_blank' rel='noreferrer' className='project-github'>Demo</a>
+            <a href='https://github.com/charnaye95/DraftDay' target='_blank' rel='noreferrer' className='project-github'>Github</a>
+          </div>
           <p className='project-description'>
             <b>Mongo, Express, Node.js, EJS, CSS</b>
             <br></br>
@@ -88,7 +98,10 @@ function Projects() {
             <a href='https://charnaye95.github.io/MovieMadness/' target='_blank' rel='noreferrer' className='project-link'><img src={moviemadness} alt='movie madness homepage'></img></a>
           </div>
           {/* <p className='project-title'>TherapyReady</p> */}
-          <a href='https://github.com/charnaye95/MovieMadness' target='_blank' rel='noreferrer' className='project-github'>Github</a>
+          <div className='link-block'>
+            <a href='https://charnaye95.github.io/MovieMadness/' target='_blank' rel='noreferrer' className='project-github'>Demo</a>
+            <a href='https://github.com/charnaye95/MovieMadness' target='_blank' rel='noreferrer' className='project-github'>Github</a>
+          </div>
           <p className='project-description'>
             <b>HTML, CSS, JavaScript</b>
             <br></br>

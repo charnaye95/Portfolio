@@ -167,6 +167,10 @@ h2 {
   width: 35%;
   margin: 30px;
 }
+.link-block {
+  display: flex;
+  justify-content: space-around;
+}
 .project-github {
   color: #ffd447;
   font-weight: 800;
