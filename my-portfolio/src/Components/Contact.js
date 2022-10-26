@@ -16,8 +16,8 @@ function Contact() {
       </h3>
       <br></br>
       <div className='contact-links'>
-        <h3><a className='email' href='mailto:charnayegrier@gmail.com'>Email me</a></h3>
-        <h3><a className='phone' href='tel:6785760005'>Call me</a></h3>
+        <h3><a className='email' href='mailto:charnayegrier@gmail.com'>Email me: charnayegrier@gmail.com</a></h3>
+        <h3><a className='phone' href='tel:6785760005'>Call me: 678.576.0005</a></h3>
       </div>
     </motion.div>
   )
