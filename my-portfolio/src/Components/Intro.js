@@ -28,7 +28,8 @@ function Intro() {
                         multiText={[
                             'Software Developer',
                             'Front End Developer',
-                            'Software Developer | Front End Developer',
+                            'Full Stack Developer',
+                            'Software Developer | Front End & Full Stack'
                         ]}
                         multiTextDelay={1000}
                         typeSpeed={40}
