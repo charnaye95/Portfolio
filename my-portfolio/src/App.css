@@ -163,7 +163,8 @@ h2 {
 #project1,
 #project2,
 #project3,
-#project4 {
+#project4,
+#project5 {
   width: 35%;
   margin: 30px;
 }
@@ -277,7 +278,8 @@ h2 {
   #project1,
   #project2,
   #project3,
-  #project4 {
+  #project4,
+  #project5 {
     width: 240px;
   }
   .project-item {

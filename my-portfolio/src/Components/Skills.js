@@ -13,6 +13,7 @@ import pythonskill from '../assets/images/icons8-python.svg'
 import djangoskill from '../assets/images/icons8-django.svg'
 import postgresskill from '../assets/images/icons8-postgresql.svg'
 import mongoskill from '../assets/images/icons8-mongodb-a-cross-platform-document-oriented-database-program-75.png'
+import expressskill from '../assets/images/icons8-express-js.svg'
 import herokuskill from '../assets/images/icons8-heroku.svg'
 import netlifyskill from '../assets/images/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-75.png'
 
@@ -59,7 +60,7 @@ function Skills() {
             className='skill-item'
           >
             <img src={htmlskill} alt='' className='html-skill'></img>
-            <p className='skill-text'>CSS</p></motion.div>
+            <p className='skill-text'>HTML</p></motion.div>
           <motion.div
             initial={{ scale: 1 }}
             whileHover={{ scale: 1.3 }}
@@ -123,6 +124,13 @@ function Skills() {
           >
             <img src={mongoskill} alt='' className='mongo-skill'></img>
             <p className='skill-text'>MongoDB</p></motion.div>
+          <motion.div
+            initial={{ scale: 1 }}
+            whileHover={{ scale: 1.3 }}
+            className='skill-item'
+          >
+            <img src={expressskill} alt='' className='express-skill'></img>
+            <p className='skill-text'>Express</p></motion.div>
           <motion.div
             initial={{ scale: 1 }}
             whileHover={{ scale: 1.3 }}
