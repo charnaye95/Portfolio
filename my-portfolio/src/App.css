@@ -182,6 +182,11 @@ h2 {
   font-weight: 575;
   color: black;
 }
+.calendar {
+padding-left: 150px;  
+display: flex;
+column-gap: 5vw;
+}
 .contact {
   text-align: center;
   padding-bottom: 10vh;
