@@ -16,6 +16,8 @@ import typescriptSkill from '../assets/images/icons8-typescript.svg'
 import sqlSkill from '../assets/images/icons8-sql.svg'
 import grafanaSkill from '../assets/images/icons8-grafana.svg'
 import claudeSkill from '../assets/images/icons8-claude-code.svg'
+import jiraSkill from '../assets/images/icons8-jira-48.svg   '
+import bitbucketSkill from '../assets/images/icons8-bitbucket.svg'
 
 const skills = [
   { name: 'C#', icon: csharpSkill },
