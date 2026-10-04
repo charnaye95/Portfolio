@@ -9,15 +9,15 @@ import gitSkill from '../assets/images/icons8-git.svg'
 import pythonSkill from '../assets/images/icons8-python.svg'
 import postgresSkill from '../assets/images/icons8-postgresql.svg'
 import mongoSkill from '../assets/images/icons8-mongodb-a-cross-platform-document-oriented-database-program-75.png'
-import csharpSkill from '../assets/images/icons8-c-sharp-logo.svg'
-import netSkill from '../assets/images/icons8-.net-framework.svg'
-import vueSkill from '../assets/images/icons8-vue-js.svg'
-import typescriptSkill from '../assets/images/icons8-typescript.svg'
-import sqlSkill from '../assets/images/icons8-sql.svg'
-import grafanaSkill from '../assets/images/icons8-grafana.svg'
-import claudeSkill from '../assets/images/icons8-claude-code.svg'
-import jiraSkill from '../assets/images/icons8-jira-48.svg   '
-import bitbucketSkill from '../assets/images/icons8-bitbucket.svg'
+import csharpSkill from '../assets/images/icons8-c-sharp-logo-48.png'
+import netSkill from '../assets/images/icons8-.net-framework-48.png'
+import vueSkill from '../assets/images/icons8-vue.js-48.png'
+import typescriptSkill from '../assets/images/icons8-typescript-48.png'
+import sqlSkill from '../assets/images/icons8-sql-48.png'
+import grafanaSkill from '../assets/images/icons8-grafana-48.png'
+import claudeSkill from '../assets/images/icons8-claude-ai-48.png'
+import jiraSkill from '../assets/images/icons8-jira-48.png'
+import bitbucketSkill from '../assets/images/icons8-bitbucket-48.png'
 
 const skills = [
   { name: 'C#', icon: csharpSkill },
@@ -32,9 +32,13 @@ const skills = [
   { name: 'SQL', icon: sqlSkill },
   { name: 'PostgreSQL', icon: postgresSkill },
   { name: 'MongoDB', icon: mongoSkill },
+  { name: 'Cypress', mark: 'C' },
+  { name: 'NUnit', mark: 'N' },
   { name: 'Grafana', icon: grafanaSkill },
   { name: 'Postman', mark: 'P' },
+  { name: 'REST APIs', mark: 'API' },
   { name: 'Claude Code', icon: claudeSkill },
+  { name: 'GitHub Copilot', mark: 'AI' },
   { name: 'Git/GitHub', icon: gitSkill },
   { name: 'Bitbucket', icon: bitbucketSkill },
   { name: 'Jira', icon: jiraSkill },
