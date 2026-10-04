@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/images/profile.jpeg'
+import profile from '../assets/images/profile2.jpeg'
 import TypeWriterEffect from 'react-typewriter-effect';
 import { motion } from "framer-motion"
 
