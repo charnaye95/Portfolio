@@ -24,6 +24,7 @@ function About() {
         <h3>
           Before engineering, I studied Communications and worked as a Technical Account Manager at Publicis Groupe. That experience is why I'm comfortable working closely with product, QA, and stakeholders, and why I always think about the people on the other end of the software.       
         </h3>
+        <br></br>
         <h3>
           Outside of work, I love spending time with family and friends, binge-watching movies and shows, and exploring new cities.
         </h3>
