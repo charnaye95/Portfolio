@@ -13,14 +13,19 @@ function About() {
         </h2>
       </div>
       <div className='about-text'>
-        <h3>Ever since I can remember, I had an interest in storytelling, creativity, and the art of communication. I've searched for ways in which I can express my love for it, and discovered I want to channel it to help people. That path led me to web development.  </h3>
-        <br></br>
         <h3>
-          As a developer, I enjoy problem-solving, the look and feel of an application, and how it’s working. My degree in Communications and time with General Assembly allows me to work efficiently in collaborative settings, and the ability to bring an audience’s perspective to coding. I care about the impact of an application and what it can do for its users.
+          I build software that holds up. As a Software Engineer at Siemens, I develop full-stack features for an enterprise healthcare platform, and much of my work centers on new features that drive the business forward. The features I've built have helped generate new revenue, keep existing clients invested in the product, and attract new ones. I've also resolved hundreds of high-priority production issues so the platform stays stable for the people who rely on it.
         </h3>
         <br></br>
         <h3>
-          In my free time, you can find me hanging out with family and friends, binge watching movie and shows, or exploring a new city.
+          I work across C#/.NET on the backend and Vue and TypeScript on the frontend, and I use AI tools like Claude Code and GitHub Copilot every day while reviewing every change against our standards for security and quality.
+        </h3>
+        <br></br>
+        <h3>
+          Before engineering, I studied Communications and worked as a Technical Account Manager at Publicis Groupe. That experience is why I'm comfortable working closely with product, QA, and stakeholders, and why I always think about the people on the other end of the software.       
+        </h3>
+        <h3>
+          Outside of work, I love spending time with family and friends, binge-watching movies and shows, and exploring new cities.
         </h3>
       </div>
 

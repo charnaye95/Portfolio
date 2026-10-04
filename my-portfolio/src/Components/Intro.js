@@ -38,10 +38,12 @@ function Intro() {
                 </h2>
                 <br></br>
                 <h2 className='title'>
-                    I create meaningful applications.
+                    I build software that people can rely on.
                 </h2>
                 <br></br>
-                <h3 className='brand-statement'>I am a creative, design-minded, and user-driven software developer aiming to create meaningful applications that truly reach people and can add to someone’s life. Messaging and access to software for everyone is important to me and if even one application that I create is helpful to someone, I’ve made a difference.</h3>
+                <h3 className='brand-statement'>I'm a full-stack Software Engineer at Siemens, building features for an enterprise healthcare platform with C#/.NET, Vue, and TypeScript. 
+                    I care about software that truly reaches people, which means making it accessible, easy to use, and stable enough that nobody has to think twice about it. 
+                    Knowing that the code I write supports people in healthcare is a big part of why I do this work.</h3>
             </div>
             <motion.div className='image-container'
                 initial={{ scale: .9 }}
