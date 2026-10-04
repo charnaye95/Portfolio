@@ -11,30 +11,31 @@ import postgresSkill from '../assets/images/icons8-postgresql.svg'
 import mongoSkill from '../assets/images/icons8-mongodb-a-cross-platform-document-oriented-database-program-75.png'
 import csharpSkill from '../assets/images/icons8-c-sharp-logo.svg'
 import netSkill from '../assets/images/icons8-.net-framework.svg'
+import vueSkill from '../assets/images/icons8-vue-js.svg'
+import typescriptSkill from '../assets/images/icons8-typescript.svg'
+import sqlSkill from '../assets/images/icons8-sql.svg'
+import grafanaSkill from '../assets/images/icons8-grafana.svg'
+import claudeSkill from '../assets/images/icons8-claude-code.svg'
 
 const skills = [
   { name: 'C#', icon: csharpSkill },
   { name: '.NET', icon: netSkill },
-  { name: 'Vue.js', mark: 'V' },
-  { name: 'TypeScript', mark: 'TS' },
+  { name: 'Vue.js', icon: vueSkill },
+  { name: 'TypeScript', icon: typescriptSkill },
   { name: 'JavaScript', icon: javascriptSkill },
   { name: 'React', icon: reactSkill },
   { name: 'Node.js', icon: nodeSkill },
   { name: 'HTML', icon: htmlSkill },
   { name: 'CSS', icon: cssSkill },
-  { name: 'SQL', mark: 'SQL' },
+  { name: 'SQL', icon: sqlSkill },
   { name: 'PostgreSQL', icon: postgresSkill },
   { name: 'MongoDB', icon: mongoSkill },
-  { name: 'Cypress', mark: 'C' },
-  { name: 'NUnit', mark: 'N' },
-  { name: 'Grafana', mark: 'G' },
+  { name: 'Grafana', icon: grafanaSkill },
   { name: 'Postman', mark: 'P' },
-  { name: 'REST APIs', mark: 'API' },
-  { name: 'Claude Code', mark: 'CC' },
-  { name: 'GitHub Copilot', mark: 'AI' },
+  { name: 'Claude Code', icon: claudeSkill },
   { name: 'Git/GitHub', icon: gitSkill },
-  { name: 'Bitbucket', mark: 'B' },
-  { name: 'Jira', mark: 'J' },
+  { name: 'Bitbucket', icon: bitbucketSkill },
+  { name: 'Jira', icon: jiraSkill },
   { name: 'Python', icon: pythonSkill },
 ]
 
